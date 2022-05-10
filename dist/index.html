@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<script defer src="main.js"></script></head>
+
+<body>
+    <h1>LeaderBoard</h1>
+    <article class="container">
+        <section class="score-board">
+            <div class="score-details">
+                <h2>Recent scores</h2>
+                <button id="refresh">Refresh</button>
+            </div>
+            <ul class="render-page">
+                <!-- Render Page Dynamically -->
+            </ul>
+        </section>
+
+        <section class="add-score">
+            <h2>Add your score</h2>
+            <form id="form" class="form-class">
+                <small class="added"></small>
+                <input type="text" name="name" id="name" class="input" placeholder="Your name" required>
+                <input type="number" name="number" id="number" class="input" placeholder="Your number" required>
+                <div class="button">
+                    <button>Submit</button>
+                </div>
+            </form>
+        </section>
+    </article>
+
+</body>
+
+</html>
