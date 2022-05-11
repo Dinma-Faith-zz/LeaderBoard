@@ -28,7 +28,7 @@ form.addEventListener('submit', async (e) => {
 refreshBtn.addEventListener('click', async () => {
   createScore();
 });
- 
+
 window.addEventListener('load', () => {
   createScore();
 });
