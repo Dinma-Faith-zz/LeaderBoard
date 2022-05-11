@@ -39,7 +39,6 @@ h1 {
 
 h2 {
   font-size: 32px;
-  margin-bottom: 50px;
   color: rgb(44, 25, 25);
   font-family: 'Poppins', sans-serif;
   text-align: center;
@@ -58,13 +57,12 @@ h2 {
   display: flex;
   justify-content: end;
   margin-top: 5%;
-  margin-bottom: 10%;
 }
 
 button {
   height: 40px;
   width: 22%;
-  margin-bottom: 7%;
+  margin-bottom: 3%;
   background-color: rgb(49, 39, 39);
   color: #fff;
   border: none;
@@ -76,7 +74,7 @@ button {
 }
 
 button:hover {
-  width: 23%;
+  width: 25%;
 }
 
 button:active {
