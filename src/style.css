@@ -50,7 +50,7 @@ h2 {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: start;
+  padding-right: 2%;
 }
 
 .button {
@@ -90,4 +90,25 @@ button:active {
 .input {
   padding: 5%;
   margin: 4%;
+}
+
+.copyright {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 10%;
+  flex-wrap: wrap;
+}
+
+li {
+  padding: 2%;
+  list-style: none;
+}
+
+li:nth-child(odd) {
+  background-color: #c1c1c1;
+  width: 100%;
+}
+
+.render-page {
+  padding: 5%;
 }
