@@ -47,7 +47,7 @@ To get a local copy up and running follow these simple example steps.
 - **npx eslint .** : To test Eslint Report
 
 ## Live Demo
-- [live link](https://dinma-faith.github.io/LeaderBoard/)
+- [Go live](https://dinma-faith.github.io/LeaderBoard/dist/)
 
 👤 **Author**
 
