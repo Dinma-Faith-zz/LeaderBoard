@@ -106,9 +106,15 @@ li {
 
 li:nth-child(odd) {
   background-color: #c1c1c1;
-  width: 100%;
+  width: 95%;
 }
 
 .render-page {
-  padding: 5%;
+  padding: 5% 3%;
+  overflow-y: scroll;
+  height: 35vh;
+}
+
+.score-board.render-page {
+  background-color: #000;
 }

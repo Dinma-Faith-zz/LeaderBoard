@@ -19,6 +19,11 @@ const createScore = async () => {
 form.addEventListener('submit', async (e) => {
   e.preventDefault();
   const myname = name.value;
+  console.log(myname.match(/1234567890/i));
+  if (myname.match(/1/g) || myname.match(/2/g) || myname.match(/3/g) || myname.match(/4/g) || myname.match(/5/g) || myname.match(/6/g) || myname.match(/7/g) || myname.match(/8/g) || myname.match(/9/g) || myname.match(/0/g)) {
+    alert('Please enter a valid name');
+    return;
+  }
   const myNumber = number.value;
   await postScores(myname, myNumber);
   form.reset();
